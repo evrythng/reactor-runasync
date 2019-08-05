@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "evrythng-extended": "^4.1.0",
+    "reactor-runasync": "^1.0.0"
+  }
+}
