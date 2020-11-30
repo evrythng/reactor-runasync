@@ -4,6 +4,6 @@
  * @param {function} f - The function to run.
  * @returns {Promise}
  */
-const runAsync = f => f().catch(e => logger.error(e.message || e.errors[0])).then(done);
+const runAsync = f => f().catch(e => logger.error(e.stack || e.errors[0])).then(done);
 
 module.exports = runAsync;
